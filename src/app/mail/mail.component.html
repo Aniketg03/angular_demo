@@ -1,0 +1,20 @@
+<h3>Log In</h3>
+
+<!-- <button>
+    submit
+</button><br> -->
+
+<button
+  type="button"
+  [disabled]="canClick"
+  (click)="sayMessage()">
+  Trigger alert message
+</button>
+
+<p
+  [id]="sayHelloId"
+  [style.color]="fontColor">
+  You can set my color in the component!
+</p>
+
+<p>My color is {{ fontColor }}</p>
